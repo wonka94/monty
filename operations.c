@@ -10,7 +10,7 @@
  */
 void add(stack_t **stack, unsigned int line_number)
 {
-    int sum = 0;
+	int sum = 0;
 
 	if (!((*stack) && (*stack)->next))
 	{
@@ -24,7 +24,7 @@ void add(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * div - divides the second top element of the stack by the top element
+ * divide - divides the second top element of the stack by the top element
  * @stack: double pointer to the top of the stack
  * @line_number: line number of the opcode in the file
  *

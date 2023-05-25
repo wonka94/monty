@@ -31,7 +31,8 @@ void rotl(stack_t **stack, unsigned int line_number)
  * @stack: double pointer to the top of the stack
  * @line_number: line number of the opcode in the file
  *
- * Description: The last element of the stack becomes the top element of the stack.
+ * Description: The last element of the stack becomes
+ * the top element of the stack.
  */
 void rotr(stack_t **stack, unsigned int line_number)
 {
