@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -55,5 +57,8 @@ void swap(stack_t **s, unsigned int ln);
 
 char *get_command(char *c);
 int get_value(char *c);
+
+void execute_instruction(char *s, stack_t **str, int j);
+void process_file(FILE *fi);
 
 #endif
