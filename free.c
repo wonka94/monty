@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * free_z - frees a stack_t stack
- * @st: pointer to the top of the stack
+ * free_stack - frees a stack_t stack
+ * @s: pointer to the top of the stack
  *
  * Description: Frees a stack_t stack.
  */
