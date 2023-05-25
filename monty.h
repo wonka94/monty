@@ -37,9 +37,9 @@ void add(stack_t **s, unsigned int ln);
 void sub(stack_t **s, unsigned int ln);
 void mul(stack_t **s, unsigned int ln);
 void mod(stack_t **s, unsigned int ln);
-void div(stack_t **s, unsigned int ln);
+void divide(stack_t **s, unsigned int ln);
 
-void free(stack_t *s);
+void free_stack(stack_t *s);
 
 void nop(stack_t **s, unsigned int ln);
 
