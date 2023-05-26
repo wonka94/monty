@@ -75,8 +75,8 @@ void pstr(stack_t **stack, unsigned int line_number)
 	temp = *stack;
 	while (temp && temp->n > 0 && temp->n <= 127)
 	{
-		printf("%c", temp->n);
+		fprintf(stdout, "%c", temp->n);
 		temp = temp->next;
 	}
-	printf("\n");
+	fprintf(stdout, "\n");
 }
